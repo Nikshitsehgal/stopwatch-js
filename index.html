@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="container">
+      <div class="col-1"></div>
+      <div class="col-2">
+        <h1>Stopwatch</h1>
+        <div class="time">00 : 00 : 00</div>
+        <div class="buttons">
+          <!-- Start button -->
+          <button id="start">Start</button>
+          <!-- Pause/Resume Button appear on start -->
+          <button id="pauseresume">Pause</button>
+          <!-- Reset/Flag Button appear on start -->
+          <button id="reset">Flag</button>
+        </div>
+        <ol class="flags"></ol>
+      </div>
+      <div class="col-3"></div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
