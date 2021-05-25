@@ -41,7 +41,9 @@ h1 {
 button {
   border: none;
   border-radius: 5px;
-  padding: 10px 40px;
+  padding: 10px 10px;
+  width: 100px;
+  margin: 5px;
   color: white;
   font-size: 18px;
   cursor: pointer;
@@ -73,4 +75,38 @@ button:focus {
 ol {
   font-size: 18px;
   margin: 0 40%;
+}
+
+@media screen and (max-width: 700px) {
+  .col-1,
+  .col-3 {
+    width: 10%;
+  }
+
+  .col-2 {
+    width: 80%;
+  }
+
+  .time {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .col-1,
+  .col-3 {
+    width: 20%;
+  }
+
+  .col-2 {
+    width: 60%;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .time {
+    font-size: 22px;
+  }
 }
